@@ -125,13 +125,13 @@ const ContactSection = () => {
                     <div className="pt-8 border-t border-muted-foreground/30">
                         <h4 className="mb-4 font-medium">Connect with me:</h4>
                         <div className="flex space-x-4 justify-center">
-                            <a href="https://x.com/ObamiyiAyodeji" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                            <a href="https://www.linkedin.com/in/daniel-ayodeji-obamiyi/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                                 <Linkedin className="h-6 w-6"/>
                             </a>
-                            <a href="https://twitter.com/ObamiyiAyodeji" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                            <a href="https://x.com/Obamiyiayodeji" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                                 <Twitter className="h-6 w-6"/>
                             </a>
-                            <a href="https://www.instagram.com/obamiyi_ayodeji/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                            <a href="https://www.instagram.com/big.addo.dev?igsh=MXdrN2wzOGhlbm1hMA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                                 <Instagram className="h-6 w-6"/>
                             </a>
                         </div>

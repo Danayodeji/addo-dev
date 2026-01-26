@@ -8,7 +8,7 @@ const projects = [
     description:
       "A web application for ordering food from local restaurants in Darkmode.",
     imageUrl: "/projects/project1.png   ",
-    tags: ["React", "Node.js", "Express", "MongoDB", "CSS"],
+    tags: ["React", "Vite", "Node.js", "Express", "MongoDB", "CSS"],
     DemoUrl: "https://food-ordering-webapp-7hsi.onrender.com/",
     GitHubUrl: "https://github.com/Danayodeji/food-ordering-webapp",
   },
@@ -19,7 +19,7 @@ const projects = [
     description:
       "A personal portfolio website to showcase my projects and skills.",
     imageUrl: "/projects/project2.png   ",
-    tags: ["React", "Tailwind CSS", "JavaScript"],
+    tags: ["React", "Vite", "Tailwind CSS", "JavaScript"],
     DemoUrl: "https://myportfolio.com",
     GitHubUrl: "https://github.com/Danayodeji/daniel-obamiyi-dev",
   },
@@ -29,7 +29,7 @@ const projects = [
     description:
       "A web application for ordering food from local restaurants in Light mode.",
     imageUrl: "/projects/project3.png   ",
-    tags: ["React", "Node.js", "Express", "MongoDB", "CSS"],
+    tags: ["React", "Vite", "Node.js", "Express", "MongoDB", "CSS"],
     DemoUrl: "https://food-ordering-webapp-7hsi.onrender.com/",
     GitHubUrl: "https://github.com/Danayodeji/food-ordering-webapp",
   },
