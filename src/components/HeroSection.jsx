@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4"
+      className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-[calc(env(safe-area-inset-top)+8rem)] sm:pt-32 pb-16"
     >
       <div className="absolute inset-0 -z-10">
         <div className="orb w-72 h-72 bg-primary/30 -top-12 -left-10" />
@@ -49,7 +49,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="glass-card p-8 space-y-6 text-left">
+          <div className="glass-card p-6 sm:p-8 space-y-6 text-left w-full max-w-md mx-auto lg:max-w-none">
             <div className="flex items-center gap-4">
               <div className="h-14 w-14 rounded-2xl bg-primary/15 flex items-center justify-center text-primary font-bold">
                 AD
@@ -89,7 +89,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden sm:flex flex-col items-center animate-bounce">
         <span>Scroll</span>
         <ArrowDown className='h-5 w-5 text-primary'/>
       </div>

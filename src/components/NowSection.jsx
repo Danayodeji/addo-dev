@@ -6,12 +6,12 @@ const NowSection = () => {
     <section id="now" className="py-20 px-4 relative bg-secondary/30 section-divider">
       <div className="container max-w-5xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-          <div>
+          <div className="text-center lg:text-left">
             <p className="text-sm text-muted-foreground">Now</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 display-font">
               What I’m focused on <span className="text-primary">right now</span>
             </h2>
-            <p className="text-muted-foreground max-w-xl">
+            <p className="text-muted-foreground max-w-xl mx-auto lg:mx-0">
               Building design‑forward web experiences, refining component systems, and shipping
               performance‑tuned products for startups and founders.
             </p>

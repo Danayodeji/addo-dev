@@ -59,11 +59,11 @@ const ProjectsSection = () => {
               key={key}
               className={`group glass-card overflow-hidden card-hover ${project.featured ? "md:col-span-4" : "md:col-span-2"}`}
             >
-              <div className="overflow-hidden h-48">
+              <div className="overflow-hidden h-44 sm:h-48">
                 <img
                   src={project.imageUrl}
                   alt={project.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-44 sm:h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
 

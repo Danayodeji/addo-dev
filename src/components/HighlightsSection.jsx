@@ -34,7 +34,7 @@ const HighlightsSection = () => {
                 A polished, product‑ready approach
               </h2>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3">
               <span className="pill">UI/UX Focused</span>
               <span className="pill">Full‑Stack</span>
             </div>
